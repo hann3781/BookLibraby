@@ -1,10 +1,11 @@
 import { getBooks } from "@/lib/supabase";
 import { BookShelf } from "@/components/BookShelf";
+import type { Book } from "@/types";
 
 export const revalidate = 0;
 
 export default async function HomePage() {
-  let books = [];
+  let books: Book[] = [];
   let error = null;
 
   try {

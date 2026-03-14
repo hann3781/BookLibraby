@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where node:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(node:*)",
+      "Bash(\"/c/Program:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(where:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Read(//c/Users/Hänna/AppData/Roaming/**)",
+      "Bash(ls:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(cmd:*)",
+      "Bash(/c/Windows/System32/cmd.exe:*)",
+      "Bash(echo:*)",
+      "Bash(printenv PATH:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
